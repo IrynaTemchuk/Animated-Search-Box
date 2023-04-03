@@ -34,7 +34,7 @@
                 searchBtn.classList.add("active");
                 cancelBtn.classList.add("active");
                 if(searchInput.value != ""){
-                    let value = searchInput.value;
+                    var values = searchInput.value;
                     searchData.classList.remove("active");
                     searchData.innerHTML = "You just typed " + "<span style='font-weight: 500;'>" + values + "</span>";
                 }else{
